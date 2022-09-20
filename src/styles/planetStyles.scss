@@ -1,0 +1,25 @@
+button {
+    background-color: #008cba; /* Blue */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #e7e7e7;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    margin: 10px;
+    padding: 25px 15px;
+    width: fit-content;
+  }

@@ -1,0 +1,20 @@
+.container {
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+    .home-page-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 65px;
+    
+        .planet-wrapper {
+            margin-left: 265px;
+        }
+    
+        .people-wrapper {
+            margin-right: 165px;
+        }
+    }
+}
+
